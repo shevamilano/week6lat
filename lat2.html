@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lat2.css">
+    <title>Form Perusahaan</title>
+</head>
+<body>
+    <div class="content">
+        <form id="mainForm">
+            <h2>Form Pegawai Seminyak</h2>
+            <div class="form-control">
+                <div id="name"><label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Enter your name" autocomplete="off">
+            </div>
+            <div id="alamat"><label for="alamat">Alamat</label>
+                <input type="text" id="alamat" placeholder="Enter your name" autocomplete="off">
+            </div>
+            <div id="born"><label for="born">Tanggal Lahir</label>
+                <input type="text" id="born" placeholder="Enter your name" autocomplete="off">
+            </div>
+            <div id="noktp"><label for="noktp">No. KTP</label>
+                <input type="text" id="noktp" placeholder="Enter your name" autocomplete="off">
+            </div>
+            <div id="posisi"><label for="posisi">Posisi</label>
+                <input type="text" id="posisi" placeholder="Enter your name" autocomplete="off">
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Success!</h2>
+            <p>Your form has been submitted successfully.</p>
+        </div>
+    </div>
+    <script src="lat2.js"></script>
+    
+</body>
+</html>
